@@ -1,0 +1,91 @@
+{
+  "name": "testknow",
+  "author": "durgendra",
+  "email": "example@gmail.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env react-scripts start",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "prettier:fix": "prettier './src/**/*.js' --write",
+    "eslint:fix": "eslint ./src --fix",
+    "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
+    "clear-all": "rimraf ./build ./node_modules"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "last 2 versions",
+      "Firefox ESR",
+      "not dead",
+      "not IE 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5",
+    "@mui/x-data-grid": "^5.17.14",
+    "@radix-ui/react-accordion": "^1.1.1",
+    "@react-pdf-viewer/core": "3.12.0",
+    "@react-pdf-viewer/thumbnail": "^3.11.0",
+    "aos": "^2.3.4",
+    "card-validator": "^8.1.1",
+    "firebase": "^9.13.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^10.6.0",
+    "jarallax": "^2.0.4",
+    "jwt-decode": "^3.1.2",
+    "langchain": "^0.0.75",
+    "lucide-react": "^0.216.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.1",
+    "pdfjs-dist": "3.4.120",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-countup": "^6.3.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "^5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.4.5",
+    "tailwind-merge": "^1.12.0",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0",
+    "web-vitals": "^3.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-flow": "^7.14.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.23.1",
+    "prettier": "^2.7.1",
+    "react-error-overlay": "6.0.9",
+    "rimraf": "^3.0.2",
+    "typescript": "^2.7",
+    "yarn-upgrade-all": "^0.7.1"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  }
+}

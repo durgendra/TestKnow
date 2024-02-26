@@ -1,0 +1,14 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  text-align: center;
+}
+.result2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 2vh;
+  text-align: center;
+}
